@@ -1,0 +1,13 @@
+inject_id,option,decision_path,evidence_ids,basis_or_gap,failure_guard,model_points
+INJ-01,A,Open suspected-incident case; enrich identity telemetry before attributing compromise,EV-001,Hypothesis and evidence request documented,Avoid announcing confirmed compromise without corroboration,2
+INJ-01,B,Announce confirmed malicious access based on unfamiliar IP alone,EV-001,Attribution cannot follow solely from IP anomaly,Unproven compromise leads to distorted escalation,0
+INJ-02,A,Verify using known vendor contact and acknowledge employee report without blame,EV-002,Out-of-band verification and secure preservation requested,Do not click or forward a suspect verification link,2
+INJ-02,B,Reply directly to message sender and ask them to confirm legitimacy,EV-002,Sender control not established,Could disclose sensitive details or validate attacker,0
+INJ-03,A,Correlate 41 ticket reads with permitted job and request export/session audit,EV-003;EV-007,Read activity established; data export unknown,Never equate access with exfiltration,2
+INJ-03,B,Declare confirmed data exfiltration and broad customer disclosure,EV-003,Export not observed and vendor audit missing,Unsupported harm claim; premature communications,0
+INJ-04,A,Recommend time-boxed access suspension with incident-commander authorization and support fallback,EV-006;EV-009,Containment depends on accountable trade-off decision,Do not disrupt essential services without authority and plan,2
+INJ-04,B,Permanently disable all vendor users without consulting service owner,EV-006;EV-009,Impact and authority not established,May cause avoidable outage and interfere with evidence,0
+INJ-05,A,"Escalate missing logs, preserve uncertainty, and request specialist privacy impact review",EV-007;EV-008,No authentic export proof or scoped personal-data findings,Specialist notification analysis is separate and remains open,2
+INJ-05,B,Assure leadership no customer information was affected,EV-007;EV-008,Missing records do not establish absence of impact,False negative conclusion and unwarranted reassurance,0
+INJ-06,A,Gate recovery on independent session/access verification and treat training impact as unmeasured,EV-009;EV-010,No restored access or learner measures in source evidence,"No closure until testing, independent approval and sustained effectiveness",2
+INJ-06,B,Restore access and declare staff awareness improved because a quiz was written,EV-009;EV-010,No real recovery test or learner completions exist,Unsupported operating effectiveness and premature closure,0

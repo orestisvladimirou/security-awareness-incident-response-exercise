@@ -1,0 +1,9 @@
+case_id,inject_id,evidence_id,available_or_missing_observation,required_validation,decision_limit,owner_role
+EC-01,INJ-01,EV-001,Source identity network context is synthetic only,Correlate legitimate business travel/device and identity session,Unconfirmed identity compromise,SOC Analyst
+EC-02,INJ-02,EV-002,Employee observed a suspicious message,Record secure headers and out-of-band verification,No proven link click or credential use,Service Desk
+EC-03,INJ-03,EV-003,Support app shows 41 reads in 9 minutes,Request signed export/session/authorization audit,No demonstrated customer data export,SOC Analyst
+EC-04,INJ-03,EV-007,Provider export audit not yet supplied,Escalate contractual audit access and preservation,Impact assessment remains open,Vendor Manager
+EC-05,INJ-04,EV-009,Revocation verification unavailable,Require account/session scope and post-revocation checks,Suspension cannot be marked verified,Identity Administrator
+EC-06,INJ-04,EV-006,Vendor request is unverified correspondence,Use authenticated contact and request operational fallback,No claim a vendor received the request,Vendor Manager
+EC-07,INJ-05,EV-008,Personal-data review cannot establish affected records,Refer to Privacy Lead for scoping and decision record,Not enough information to decide notification,Privacy Lead
+EC-08,INJ-06,EV-010,Improvement notes are a synthetic draft,"Request independent test, management approval and retraining measures",Neither action closure nor behavior change evidenced,Incident Commander

@@ -1,0 +1,9 @@
+question_id,module_id,safe_option,safe_action_rationale,unsafe_answer_example,coaching_prompt,measurement_limit
+Q-01,M-01,B,Use a known independent channel rather than interacting with an unexpected link,A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-02,M-01,C,Branding and TLS do not establish sender legitimacy,A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-03,M-02,A,Privileged vendor access requires documented scope and owner authorization,B,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-04,M-02,B,"Absence of audit evidence is uncertainty, not proof of innocence or guilt",A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-05,M-03,A,Rapid disclosure enables token and identity response and avoids blame,B,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-06,M-03,B,Factual context supports triage; avoid speculation and public exposure,A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-07,M-04,B,Communicate facts and uncertainty and refer legal assessment to specialists,A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation
+Q-08,M-04,C,Recovery needs independently checked access state and accountable authorization,A,Explain the first safe action and a trusted channel or approval gate,No actual answer collection; validate behavior in authorized simulation

@@ -1,0 +1,17 @@
+metric_id,indicator,value,unit,source_path,assurance_guard
+M01,Synthetic incident timeline events,11,scenario events,data/scenario_events.csv,"Fictional narrative, not telemetry"
+M02,Synthetic evidence items in source register,10,evidence IDs,data/evidence_register.csv,Four supporting records are absent
+M03,Missing evidence references,4,not supplied,data/evidence_register.csv,Unknown is not proof of no harm
+M04,Proposed incident decisions without signoff,8,unsigned decisions,data/incident_decisions.csv,No decision was approved or authorized
+M05,Open proposed response actions,10,open actions,data/response_actions.csv,No production changes
+M06,Tabletop injects not conducted,6,injects,data/tabletop_injects.csv,Exercise design only
+M07,Illustrative decision branches,12,safe and unsafe options,phase2/data/decision_branches.csv,Choices are hypothetical
+M08,Evidence challenges,8,independent questions,phase2/data/evidence_challenges.csv,No actual collection
+M09,Model tabletop profiles,2,constructed profiles,phase2/data/illustrative_tabletop_answers.csv,No actual people attended this exercise
+M10,Knowledge assessment questions,8,questions,data/awareness_questions.csv,No staff completions
+M11,Synthetic training answer choices,24,constructed responses,phase3/data/illustrative_training_responses.csv,Not participant scores
+M12,Model learner scorecards,3,fictional examples,phase3/data/illustrative_training_scorecards.csv,No measured pass rate
+M13,Measured learning metrics,0,of 6 proposed metrics,data/learning_metrics.csv,All six baselines NOT MEASURED
+M14,Independently closed actions,0,of 10,phase3/data/action_effectiveness_gates.csv,Closure requires independent review
+M15,Open improvement themes,6,lessons,phase3/data/lessons_tracker.csv,No verified remediation
+M16,Real incident response or exercises delivered,0,real events,README.md,This is a portfolio simulation

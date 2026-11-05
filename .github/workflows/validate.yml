@@ -1,0 +1,26 @@
+name: Validate simulated incident-response case study
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate source references and incident sequence
+        run: python scripts/validate_project.py
+      - name: Validate branching tabletop and evidence limits
+        run: python scripts/validate_phase2.py
+      - name: Validate learning and open effectiveness gates
+        run: python scripts/validate_phase3.py
+      - name: Validate portfolio dashboard and cross references
+        run: python scripts/validate_portfolio.py
+      - name: Validate companion workbook integrity
+        run: python scripts/validate_workbook.py
+      - name: Validate source checksum manifest
+        run: python scripts/validate_manifest.py
+      - name: Run regression tests
+        run: python -m unittest discover -s tests -v

@@ -1,0 +1,7 @@
+lesson_id,topic,linked_actions,proposed_owner,future_success_evidence,status
+LL-01,Vendor identity monitoring,ACT-01;ACT-03,SOC Lead,Authenticated identity/sessions correlated; legitimate and malicious hypotheses evaluated,OPEN - SCENARIO
+LL-02,Employee reporting,ACT-02,Awareness Lead,Safe reporting-channel usability exercise and measured time-to-report,OPEN - SCENARIO
+LL-03,Containment authority,ACT-04;ACT-05,Incident Commander,Written approval path with rollback and continuity fallback validated,OPEN - SCENARIO
+LL-04,Provider evidence access,ACT-06,Vendor Manager,Contractual log export capability demonstrated in exercise,OPEN - SCENARIO
+LL-05,Privacy impact evidence,ACT-07,Privacy Lead,Rights/freedoms assessment and actual record categories documented,OPEN - SCENARIO
+LL-06,Recovery and non-recurrence,ACT-08;ACT-09;ACT-10,Service Owner,Independent verification and risk-owner signoff; recheck learned behaviors,OPEN - SCENARIO

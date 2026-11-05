@@ -1,0 +1,13 @@
+model_id,inject_id,chosen_option,points,scoring_basis,delivery_status
+MODEL-EVIDENCE-LED,INJ-01,A,2,Hypothesis and evidence request documented,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-EVIDENCE-LED,INJ-02,A,2,Out-of-band verification and secure preservation requested,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-EVIDENCE-LED,INJ-03,A,2,Read activity established; data export unknown,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-EVIDENCE-LED,INJ-04,A,2,Containment depends on accountable trade-off decision,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-EVIDENCE-LED,INJ-05,A,2,No authentic export proof or scoped personal-data findings,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-EVIDENCE-LED,INJ-06,A,2,No restored access or learner measures in source evidence,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-01,B,0,Attribution cannot follow solely from IP anomaly,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-02,B,0,Sender control not established,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-03,A,2,Read activity established; data export unknown,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-04,B,0,Impact and authority not established,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-05,B,0,Missing records do not establish absence of impact,WORKED EXAMPLE - NO PARTICIPANTS
+MODEL-RUSHED,INJ-06,B,0,No real recovery test or learner completions exist,WORKED EXAMPLE - NO PARTICIPANTS

@@ -1,0 +1,11 @@
+action_id,owner_role,prior_state,followup_state,evidence_requested,independent_review,approval_status,closure_decision,link_to_incident
+ACT-01,SOC Analyst,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Correlated IP device user-agent and identity baseline,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-02,Service Desk,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Reporter interview and secure message capture,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-03,SOC Analyst,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Signed ticket-audit export and legitimate activity check,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-04,Incident Commander,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Time-stamped command log and scope decision,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-05,Identity Administrator,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Revocation records and post-revocation negative access tests,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-06,Forensic Liaison,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Immutable evidence index with cryptographic digest and collector record,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-07,Vendor Manager,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Received signed vendor evidence with time bounds,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-08,Privacy Lead,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Written risk-to-individuals decision and documented assumptions,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-09,Incident Commander,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Owner authorization and witnessed test with no unauthorized access,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001
+ACT-10,Security Governance Lead,OPEN - SIMULATED,OPEN - NO OPERATIONAL EVIDENCE,Independent effectiveness test and signed action closure,NOT CONDUCTED,NOT OBTAINED,DO NOT CLOSE,IR-2026-001

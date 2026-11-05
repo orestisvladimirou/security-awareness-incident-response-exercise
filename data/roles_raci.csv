@@ -1,0 +1,10 @@
+activity,incident_commander,soc,identity_admin,vendor_manager,privacy_lead,service_owner,awareness_lead,notes
+Declare and update severity,A,R,C,I,C,C,I,Severity provisional until impact validated
+Collect identity and ticket telemetry,I,A/R,C,C,I,I,I,No real evidence collection in exercise
+Authorize access suspension,A,C,R,C,C,C,I,Business continuity consulted before disruption
+Request vendor audit logs,I,C,C,A/R,C,I,I,Use approved vendor contact route
+Preserve chain of custody,I,A/R,C,C,I,I,I,Synthetic files are not forensic artifacts
+Assess possible personal data breach,I,C,I,C,A/R,C,I,Notification outcome unverified and outside project scope
+Authorize restoration,A,C,R,C,C,R,I,Verification and service owner acceptance required
+Deliver training and measure impact,I,C,I,C,C,I,A/R,Not delivered or evaluated in v0.1
+Accept corrective-action closure,A,C,C,C,C,C,R,Independent test and documented authority required

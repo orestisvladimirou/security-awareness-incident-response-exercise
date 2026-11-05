@@ -1,0 +1,11 @@
+evidence_id,kind,record_path,case_id,scenario_timestamp_utc,confidence,supports_claim,limitation,preservation_status
+EV-001,Synthetic identity anomaly,evidence/EV-001-idp-alert.md,IR-2026-001,2026-11-18T08:40:00Z,Synthetic,Sign-in anomaly exists in made-up log,No proof of malicious authentication or real account compromise,FICTIONAL - NOT COLLECTED
+EV-002,Synthetic employee report,evidence/EV-002-employee-report.md,IR-2026-001,2026-11-18T08:46:00Z,Synthetic,Suspicious vendor impersonation message was reported,Message content does not prove link visit or credential submission,FICTIONAL - NOT COLLECTED
+EV-003,Synthetic support app audit,evidence/EV-003-ticket-audit.md,IR-2026-001,2026-11-18T08:53:00Z,Synthetic,41 ticket reads in nine-minute scenario window,Read activity is not evidence of confirmed export or exfiltration,FICTIONAL - NOT COLLECTED
+EV-004,Exercise triage note,evidence/EV-004-triage.md,IR-2026-001,2026-11-18T09:03:00Z,Provisional judgment,SEV-2 is a proposed priority,Severity depends on impact and unknown data exposure,FICTIONAL - NOT COLLECTED
+EV-005,Identity forensic export,,IR-2026-001,2026-11-18T09:16:00Z,Missing,No actual file or verified chain of custody exists,Cannot establish actual token use and verified session invalidation,MISSING - REQUESTED
+EV-006,Vendor response,evidence/EV-006-vendor-request.md,IR-2026-001,2026-11-18T09:24:00Z,Proposed request,Vendor confirmation was requested in hypothetical workflow,No response or signed confirmation exists,FICTIONAL - NOT SENT
+EV-007,Ticket export and download logs,,IR-2026-001,2026-11-18T10:05:00Z,Missing,Export occurrence is unknown,Cannot assert customer-data exfiltration,MISSING - REQUESTED
+EV-008,Privacy/impact assessment,,IR-2026-001,2026-11-18T10:35:00Z,Missing,Impact remains unknown,Regulatory reporting evaluation and scope not concluded,MISSING - REQUESTED
+EV-009,Session revocation test,,IR-2026-001,2026-11-18T11:20:00Z,Missing,Restoration gate cannot be signed off,Post-containment credential access and privilege tests not witnessed,MISSING - REQUESTED
+EV-010,Exercise lessons log,evidence/EV-010-improvement-notes.md,IR-2026-001,2026-11-18T13:00:00Z,Draft only,Possible training and process improvements identified,No real rehearsal took place; no effectiveness validation,FICTIONAL - NOT TESTED

@@ -1,0 +1,12 @@
+event_id,case_id,scenario_timestamp_utc,event_type,description,source_evidence_ids,confidence,response_owner,decision_ref,action_ref
+T-001,IR-2026-001,2026-11-18T08:40:00Z,Detection,Synthetic identity alert: unusual sign-in from unfamiliar network to vendor-linked support account,EV-001,Observed-in-simulation,SOC Analyst,D-001,ACT-01
+T-002,IR-2026-001,2026-11-18T08:46:00Z,Report,Employee forwards suspect support-portal verification message to internal helpdesk,EV-002,Observed-in-simulation,Service Desk,D-002,ACT-02
+T-003,IR-2026-001,2026-11-18T08:53:00Z,Finding,Synthetic support-app audit shows 41 ticket records read by same account in nine minutes,EV-003,Observed-in-simulation,SOC Analyst,D-003,ACT-03
+T-004,IR-2026-001,2026-11-18T09:03:00Z,Triage,Incident commander marks SEV-2 provisional; access pattern raises concern but exfiltration is not proven,EV-004,Assessment-provisional,Incident Commander,D-004,ACT-04
+T-005,IR-2026-001,2026-11-18T09:10:00Z,Containment proposal,Response team proposes revoke vendor-linked tokens and suspend associated access pending approval,EV-004,Proposed-only,Identity Administrator,D-005,ACT-05
+T-006,IR-2026-001,2026-11-18T09:16:00Z,Evidence handling,SOC queues retention of identity audit and ticket access logs; hash/export provenance not yet verified,EV-005,Pending-evidence,Forensic Liaison,D-006,ACT-06
+T-007,IR-2026-001,2026-11-18T09:24:00Z,Vendor coordination,Vendor security contact requested to confirm sign-in source and session revocation scope,EV-006,Proposed-only,Vendor Manager,D-005,ACT-07
+T-008,IR-2026-001,2026-11-18T10:05:00Z,Evidence gap,Vendor has not supplied authoritative export audit or full session history,EV-007,Missing,Vendor Manager,D-006,ACT-07
+T-009,IR-2026-001,2026-11-18T10:35:00Z,Impact triage,Privacy lead asked to assess personal-data exposure; only ticket-read metadata is available,EV-008,Unknown-impact,Privacy Lead,D-007,ACT-08
+T-010,IR-2026-001,2026-11-18T11:20:00Z,Recovery gate,Service restoration deferred pending token invalidation proof and verified reduced privileges,EV-009,Proposed-only,Incident Commander,D-008,ACT-09
+T-011,IR-2026-001,2026-11-18T13:00:00Z,Improvement planning,Initial exercise improvement backlog drafted; closure and validation remain open,EV-010,Proposed-only,Security Governance Lead,D-008,ACT-10

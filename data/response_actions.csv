@@ -1,0 +1,11 @@
+action_id,decision_id,phase,proposed_action,owner_role,priority,target_scenario_utc,verification_evidence,status,dependency
+ACT-01,D-001,Detect,Open suspected-incident record and enrich sign-in context,SOC Analyst,P1,2026-11-18T08:50:00Z,Correlated IP device user-agent and identity baseline,OPEN - SIMULATED,None
+ACT-02,D-002,Detect,Verify suspicious message out of band and support reporter,Service Desk,P1,2026-11-18T08:55:00Z,Reporter interview and secure message capture,OPEN - SIMULATED,ACT-01
+ACT-03,D-003,Analyze,Correlate support ticket reads with identity session and approved job,SOC Analyst,P1,2026-11-18T09:15:00Z,Signed ticket-audit export and legitimate activity check,OPEN - SIMULATED,ACT-01
+ACT-04,D-004,Respond,Establish command channel and re-evaluate impact and severity,Incident Commander,P1,2026-11-18T09:20:00Z,Time-stamped command log and scope decision,OPEN - SIMULATED,ACT-03
+ACT-05,D-005,Respond,Propose suspend account invalidate tokens and protect service fallback,Identity Administrator,P1,2026-11-18T09:30:00Z,Revocation records and post-revocation negative access tests,OPEN - SIMULATED,ACT-04
+ACT-06,D-006,Respond,Preserve identity and app logs with time source retention and access tracking,Forensic Liaison,P1,2026-11-18T10:00:00Z,Immutable evidence index with cryptographic digest and collector record,OPEN - SIMULATED,ACT-03
+ACT-07,D-005,Respond,Obtain vendor owner contact session records and export audit,Vendor Manager,P1,2026-11-18T11:00:00Z,Received signed vendor evidence with time bounds,OPEN - SIMULATED,ACT-05
+ACT-08,D-007,Analyze,Run impact and data protection/legal triage without guessing disclosure,Privacy Lead,P1,2026-11-18T12:00:00Z,Written risk-to-individuals decision and documented assumptions,OPEN - SIMULATED,ACT-06
+ACT-09,D-008,Recover,Gate return to service on validated identity scope and service owner acceptance,Incident Commander,P1,2026-11-18T14:00:00Z,Owner authorization and witnessed test with no unauthorized access,OPEN - SIMULATED,ACT-05
+ACT-10,D-008,Improve,Assign awareness and vendor access root-cause actions with follow-up tests,Security Governance Lead,P2,2026-12-02T17:00:00Z,Independent effectiveness test and signed action closure,OPEN - SIMULATED,ACT-08;ACT-09

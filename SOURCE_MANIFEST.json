@@ -1,0 +1,343 @@
+{
+  "project": "Security-Awareness-Incident-Response-Exercise",
+  "version": "0.4",
+  "created_on": "2026-11-05",
+  "assurance": "Entirely fictional; no actual tabletop or training delivered",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "114b366da63de37084573a711ff7f033660754c7e457269894e5624d76892bfe",
+      "bytes": 983
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a8158469179233187b8252802ead26b8c478dcc4e063b79a947007f8c2791fe3",
+      "bytes": 62
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "3c9b52bf303a9895ed014e472342c7f8c092e967e5e2fbf7deefc6e9ed2027d8",
+      "bytes": 1678
+    },
+    {
+      "path": "README.md",
+      "sha256": "69aae2fd9a1b2600c1fbd72c349eaa950ef783751f9b06485b8ff621b367d752",
+      "bytes": 6203
+    },
+    {
+      "path": "Security_Awareness_Incident_Response_v0.1.xlsx",
+      "sha256": "47d7f049667b882a02991656c95ee15efe83f1bf4cc184f065e693dcf2bd4379",
+      "bytes": 18788
+    },
+    {
+      "path": "data/awareness_questions.csv",
+      "sha256": "e497946f5b9d1faadc2b56e4450745d45fce5154fe9e0e2870bd5f8b2f09e256",
+      "bytes": 2257
+    },
+    {
+      "path": "data/evidence_register.csv",
+      "sha256": "81dcd18658b2a8b84feb4abb00bc7e936ae38913349ba5b97e842ae22c2042a2",
+      "bytes": 2304
+    },
+    {
+      "path": "data/incident_decisions.csv",
+      "sha256": "d72f8ecfd80340417a8e11077423f557f75a561324e3ecf9c431267f221d48c5",
+      "bytes": 2496
+    },
+    {
+      "path": "data/learning_metrics.csv",
+      "sha256": "30fefd00e124311ec325327c0fff77d827ff48c938a46fedacb41ebdc2179784",
+      "bytes": 1511
+    },
+    {
+      "path": "data/response_actions.csv",
+      "sha256": "3e8d4e96af5d1161e37120ebe6e92e133ad3b88d38bb2827ecbc43717088eafe",
+      "bytes": 2242
+    },
+    {
+      "path": "data/roles_raci.csv",
+      "sha256": "db1b161bada553523500a9257e9a7e81c21c05231625b837b77148e52b9f601f",
+      "bytes": 924
+    },
+    {
+      "path": "data/scenario_events.csv",
+      "sha256": "058ddedda6e82830537cccd7dc854673b9a0f7fccc219d9d683152051ae97509",
+      "bytes": 2314
+    },
+    {
+      "path": "data/tabletop_injects.csv",
+      "sha256": "64a1fb050f5c9dab5d399d19652795769937d3bd0415927c4786f0fca769196c",
+      "bytes": 1876
+    },
+    {
+      "path": "docs/01-scenario-and-scope.md",
+      "sha256": "3ab12532201e98092db57d2b64bd22d287c90ea0e250ed44a3ce84e18d71de4f",
+      "bytes": 2800
+    },
+    {
+      "path": "docs/02-detection-and-triage.md",
+      "sha256": "a33849fb2bbd581402aca0c5058b829a9dfa1c14b40c65f4d7a5345665f6f05a",
+      "bytes": 2619
+    },
+    {
+      "path": "docs/03-response-playbook.md",
+      "sha256": "b7496eae6488eb10c3c2ca205bc87453020c4b684c47e46aaa7356cec1a03e41",
+      "bytes": 3043
+    },
+    {
+      "path": "docs/04-tabletop-facilitator-guide.md",
+      "sha256": "216167d35b49a902042189f73400a9d40f6788a061e0a979b20136cecc7792ea",
+      "bytes": 2797
+    },
+    {
+      "path": "docs/05-employee-awareness-program.md",
+      "sha256": "846c1e977a9b5b6d3b8b9a4e5480fed569f9e7e9b4df6fc8eee253332565d689",
+      "bytes": 3481
+    },
+    {
+      "path": "docs/06-after-action-report.md",
+      "sha256": "b66ee3f8075d6fdd4e00873bfb0f9da2d545c0be8898aa61baf8b40b4dae2da3",
+      "bytes": 2641
+    },
+    {
+      "path": "docs/07-executive-report.md",
+      "sha256": "349d5592c901eacd3fc37f5c8eab454f7aea3aa038ae63965e83a55488cb58f2",
+      "bytes": 2377
+    },
+    {
+      "path": "docs/08-sources-and-limitations.md",
+      "sha256": "c71b94abde0f3bcc24063f9ada925570e1f279532f84061dbc0b60fb34eabc1a",
+      "bytes": 2223
+    },
+    {
+      "path": "evidence/EV-001-idp-alert.md",
+      "sha256": "530a68cd255937adc1bd9035913fa145fa343ee76c6a02d6ddff3495be67eb30",
+      "bytes": 499
+    },
+    {
+      "path": "evidence/EV-002-employee-report.md",
+      "sha256": "b3e49246bae6c52317f573bc23a3a860ccc8b3dd20d6a2d78377655821fead3f",
+      "bytes": 467
+    },
+    {
+      "path": "evidence/EV-003-ticket-audit.md",
+      "sha256": "3fe7ffa6cc70f6736de7effc7c08d29d52a9cf46bb255cc2993ee0fd1336e27a",
+      "bytes": 463
+    },
+    {
+      "path": "evidence/EV-004-triage.md",
+      "sha256": "66d93dbe490b68a72aa89c8865f6d13b9ee26dfb1833566fd8d2a0a3174e8612",
+      "bytes": 452
+    },
+    {
+      "path": "evidence/EV-006-vendor-request.md",
+      "sha256": "c4f142af18d712584fc9303e46418f06561a86d26996b6f10b99696b451684e0",
+      "bytes": 437
+    },
+    {
+      "path": "evidence/EV-010-improvement-notes.md",
+      "sha256": "0050a672bc71f75cf3ca82519581f5658204750c69ac65403308adbbfc31dcf9",
+      "bytes": 429
+    },
+    {
+      "path": "historical/SOURCE_MANIFEST_v0.1.json",
+      "sha256": "bec16230fcaaf3026393327c39a22f907f4392a48c2cc2a878188aaf791d7ec5",
+      "bytes": 6240
+    },
+    {
+      "path": "phase2/README.md",
+      "sha256": "d32f5e9f00c3e4cfd402bed29b87ac3b3f2ce0b166811a185c1ab40085e686a9",
+      "bytes": 1488
+    },
+    {
+      "path": "phase2/data/decision_branches.csv",
+      "sha256": "b2c6066bdf07be7a170f93056d64824330a23a07a14dbac8bd45113664b8f490",
+      "bytes": 2550
+    },
+    {
+      "path": "phase2/data/evidence_challenges.csv",
+      "sha256": "cbbbd6bc1e4961e31b8245889cedc2fb8936bccf2afa7a304619f73b4423ba4e",
+      "bytes": 1516
+    },
+    {
+      "path": "phase2/data/illustrative_tabletop_answers.csv",
+      "sha256": "1414ffef93130ec08bb1ab14f8d887e5add53f40571423b1ce3b7c1862de3642",
+      "bytes": 1389
+    },
+    {
+      "path": "phase2/data/scoring_rubric.csv",
+      "sha256": "9ebbe5691b2478dcf2439e1a096d034b124f00c1811f664c6b042b0d629d5c4e",
+      "bytes": 1838
+    },
+    {
+      "path": "phase2/docs/09-tabletop-decision-guide.md",
+      "sha256": "3100895a764ddaeebaa46bcd79a9463fdf54effb832a72ad59cc15812996a822",
+      "bytes": 2364
+    },
+    {
+      "path": "phase2/docs/10-evidence-uncertainty.md",
+      "sha256": "662083d1e0354f18d17aaf09729d4fa5f660547e13f59c7b5da4fb5dabb7fff0",
+      "bytes": 1542
+    },
+    {
+      "path": "phase3/README.md",
+      "sha256": "2b4bde43f42eb907694b35adc6892c29d22581c83895b2d265fb59399b85ff4f",
+      "bytes": 1424
+    },
+    {
+      "path": "phase3/data/action_effectiveness_gates.csv",
+      "sha256": "a30aad0519bba5fb9b317882fae4c5f87c2a666e8859f14467fd7f9521edcdc6",
+      "bytes": 1956
+    },
+    {
+      "path": "phase3/data/awareness_rollout_plan.csv",
+      "sha256": "ecf14661e90138e91226e0f86bea31538e0f858acb2ed56a8dca21a21d024af9",
+      "bytes": 1161
+    },
+    {
+      "path": "phase3/data/illustrative_training_responses.csv",
+      "sha256": "a9aa820529ce1eacbf2c45b0ce58304a3c58930794086ec0e7f10f500faf7c78",
+      "bytes": 2090
+    },
+    {
+      "path": "phase3/data/illustrative_training_scorecards.csv",
+      "sha256": "bce4c3d201c77dcf414cbbb31fe76a4ee52f5af6374f26f5bf8bb13d7cac160d",
+      "bytes": 374
+    },
+    {
+      "path": "phase3/data/learning_feedback_map.csv",
+      "sha256": "0018ab7631f83cac2205e557b59fce105b95a16d5a19b4e0c1c34fe3b573840b",
+      "bytes": 1941
+    },
+    {
+      "path": "phase3/data/lessons_tracker.csv",
+      "sha256": "fba8e684ee524b29a8e6b721527246eec9527dca2e8db888165ae73f2c665629",
+      "bytes": 947
+    },
+    {
+      "path": "phase3/docs/11-learning-evaluation.md",
+      "sha256": "d0c643e4deb878d8ba418a1504c1713342290f0b1138b290d6e93d71471ff73c",
+      "bytes": 1800
+    },
+    {
+      "path": "phase3/docs/12-action-closure-and-privacy.md",
+      "sha256": "249393e6bd2945686431219f357ce109c8944a350c3bad5bfd7debe99392c468",
+      "bytes": 1475
+    },
+    {
+      "path": "phase4/README.md",
+      "sha256": "0682d384fdc480c389152fb52f63c0c603b5a1b01ba60c8e6c587b8296ef61de",
+      "bytes": 1204
+    },
+    {
+      "path": "phase4/dashboard.md",
+      "sha256": "d19dd3afadf99f124f5a4f44f1b5985a5612c31d49e79375635d9134c008b9df",
+      "bytes": 4298
+    },
+    {
+      "path": "phase4/data/incident_traceability.csv",
+      "sha256": "4b630ca1d8cdc2fc66b9ea4920f67e961c5114ae44898a190deb35883297dd62",
+      "bytes": 540
+    },
+    {
+      "path": "phase4/data/portfolio_metrics.csv",
+      "sha256": "002ae94fb2fb138f0df0b8c9d86f5b2fe37b5e09b9e71ec8878a372399f26d2b",
+      "bytes": 1883
+    },
+    {
+      "path": "phase4/docs/13-final-quality-review.md",
+      "sha256": "31c395fda0d5aa03f0d89a185ecfd029ea93725f5ad904a26b5e5ea53791dab5",
+      "bytes": 3160
+    },
+    {
+      "path": "scripts/regenerate_manifest.py",
+      "sha256": "fa08fd75e70e0340f49b0ae0f49a438a410c95d4a06363c05f2b662a37e61bad",
+      "bytes": 734
+    },
+    {
+      "path": "scripts/score_tabletop.py",
+      "sha256": "f415b458f181a37d1b9c28ebd4ea2241a782fa6b864ded9569a216aa16b2a897",
+      "bytes": 962
+    },
+    {
+      "path": "scripts/score_training.py",
+      "sha256": "a6f4fa2bae388d25b877cd0e85ade24608b93a311715c01c89777e98960bb67e",
+      "bytes": 1017
+    },
+    {
+      "path": "scripts/validate_manifest.py",
+      "sha256": "0b33e57a08952f69d2235af67c48fe165b2c3e42b523dbd3328a3aa0e1843c9f",
+      "bytes": 1083
+    },
+    {
+      "path": "scripts/validate_phase2.py",
+      "sha256": "bfc74610e31186bdae81de5855355a13d1626b7935c2bbf073ecbe22907feb60",
+      "bytes": 1976
+    },
+    {
+      "path": "scripts/validate_phase3.py",
+      "sha256": "f237172f47b0e496806db32fb8485b23f68ff63e4f2fdcfca89be8edabe9f6cc",
+      "bytes": 2823
+    },
+    {
+      "path": "scripts/validate_portfolio.py",
+      "sha256": "663bf40cafc4f1119799bbd5e002f0088ca3dbc201c888f1989baac2aa00edab",
+      "bytes": 2490
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "sha256": "b27f66a678895872a93203016960243a1ccd9d05e24a005d82c9a4a2b0c11cdd",
+      "bytes": 5915
+    },
+    {
+      "path": "scripts/validate_workbook.py",
+      "sha256": "004642a40993461dc4a4fb78fd8eac67a1b125654a8ff4a7dc905b38425c4b5c",
+      "bytes": 2862
+    },
+    {
+      "path": "templates/employee-reporting-message.md",
+      "sha256": "bc8459724df43867eae8b495d54c0f0a00d44c7978d62e8ad0226bc4e251fc3a",
+      "bytes": 854
+    },
+    {
+      "path": "templates/incident-status-update.md",
+      "sha256": "f22bf1d5f4c2ec252efb0201a3dbc5cf93b9f5ed326457f5793d7f8c4223d1b2",
+      "bytes": 750
+    },
+    {
+      "path": "templates/tabletop-observation-form.md",
+      "sha256": "8b4cd81ba961f961d91f49abce2c4a82f2cf7b33d5e63b9987a82d4ebb248389",
+      "bytes": 738
+    },
+    {
+      "path": "templates/vendor-evidence-request.md",
+      "sha256": "83699cfd7e0e8b10cb8828260dcb8b200f8755a85c0beda7056ab5f017d5af01",
+      "bytes": 843
+    },
+    {
+      "path": "tests/test_phase2.py",
+      "sha256": "0e2cd253891c5c1ec8a020109cb763660bb012fefe44d261250cd541ce401a19",
+      "bytes": 687
+    },
+    {
+      "path": "tests/test_phase3.py",
+      "sha256": "355d7874f0a6a6f11cea990b856b65f1db899cf2fc5aeb2848170cdc30d2ed96",
+      "bytes": 726
+    },
+    {
+      "path": "tests/test_portfolio.py",
+      "sha256": "b624bf6fb8da802ff22a0ccb2b598f200531d60334366ca362e2e11ab60ff23a",
+      "bytes": 844
+    },
+    {
+      "path": "tests/test_project.py",
+      "sha256": "1a7d1ed21ead90e4c5101a59f9d1066759ae5fb42df2414f02c20ad33e58c820",
+      "bytes": 1816
+    },
+    {
+      "path": "tests/test_workbook.py",
+      "sha256": "8fb9a0dd047f7ea44d1990d54dd6ba6a0ee90e3dd3ea74d8845bbe62e8be18ec",
+      "bytes": 467
+    }
+  ]
+}

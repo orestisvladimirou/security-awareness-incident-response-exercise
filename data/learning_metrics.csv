@@ -1,0 +1,7 @@
+metric_id,measure,target,baseline_status,scenario_value,collection_method,owner_role,misinterpretation_guard
+LM-01,Time from suspicious message to employee report,Under 15 minutes in a controlled drill,NOT MEASURED,,Consent-based timestamp comparison in future exercise,Awareness Lead,No synthetic 6-minute employee report can be treated as a measured workforce median
+LM-02,Correct first-response selection on knowledge checks,At least 7 of 8 questions correctly answered,NOT MEASURED,,Per-learner quiz with topic breakdown,Awareness Lead,No real learners or quiz completion recorded
+LM-03,Vendor-access approval compliance,100% sampled requests with owner signoff,NOT MEASURED,,Audit sampled vendor access changes,Vendor Manager,Sample cannot be generalized without coverage assessment
+LM-04,Privileged vendor token revocation time,Within scenario-defined response target,NOT MEASURED,,Validated identity event and post-revocation test timestamps,Identity Administrator,Proposed response events are not actual token revocations
+LM-05,Quality of uncertainty statements in incident updates,All exercise updates distinguish observed and inferred facts,NOT MEASURED,,Facilitator rubric review,Incident Commander,Creating message templates does not measure staff performance
+LM-06,Corrective action effectiveness,All closed actions independently re-tested,NOT MEASURED,,Post-exercise sampled effectiveness records,Security Governance Lead,Action assignment and training attendance alone cannot prove effectiveness

@@ -1,0 +1,5 @@
+module_id,audience,planned_delivery,observable_behavior,future_evidence,privacy_or_accessibility_provision,approval_state
+M-01,All staff,Microlearning and safe vendor-message identification,Use established channel; report without clicking,Consented knowledge/behavior test showing correct channel usage,Accessible text alternative and multilingual caption review,NOT APPROVED OR DELIVERED
+M-02,Support and vendor-management staff,Role-based case study and access request review,Demand least-privilege and owner approval,Dated audited sample of vendor access grants and exceptions,No live access modifications in exercise,NOT APPROVED OR DELIVERED
+M-03,All staff,Nonpunitive click/reporting practice,Report quickly with accurate known facts,Ethical simulated-report timestamp and accuracy check,No personal credential collection or shame scoring,NOT APPROVED OR DELIVERED
+M-04,Managers and response roles,Scenario-based decision workshop,Separate unknown impact from facts and authorize recovery only with independent evidence,Signed future decisions and independent recovery test,Accessible facilitation and role-specific support,NOT APPROVED OR DELIVERED

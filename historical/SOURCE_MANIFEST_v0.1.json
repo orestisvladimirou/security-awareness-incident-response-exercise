@@ -1,0 +1,193 @@
+{
+  "project": "Security-Awareness-Incident-Response-Exercise",
+  "version": "0.1",
+  "created_on": "2026-11-05",
+  "assurance": "Entirely fictional; no actual tabletop or training delivered",
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "sha256": "21edf2298a2f3ab38cd3a5dfe36209300d32cfc833795d780275ce61e4338d71",
+      "bytes": 652
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a8158469179233187b8252802ead26b8c478dcc4e063b79a947007f8c2791fe3",
+      "bytes": 62
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "17ef9a734e24bf1ab177e4e134d22c72c72b45f5dcb366c70ff885273b9cf942",
+      "bytes": 680
+    },
+    {
+      "path": "README.md",
+      "sha256": "39cc13ce68dd9ac0b01deebbc9af1a615deea2d85c4780f2777e8d2a9ed1fa8f",
+      "bytes": 4980
+    },
+    {
+      "path": "Security_Awareness_Incident_Response_v0.1.xlsx",
+      "sha256": "47d7f049667b882a02991656c95ee15efe83f1bf4cc184f065e693dcf2bd4379",
+      "bytes": 18788
+    },
+    {
+      "path": "data/awareness_questions.csv",
+      "sha256": "e497946f5b9d1faadc2b56e4450745d45fce5154fe9e0e2870bd5f8b2f09e256",
+      "bytes": 2257
+    },
+    {
+      "path": "data/evidence_register.csv",
+      "sha256": "81dcd18658b2a8b84feb4abb00bc7e936ae38913349ba5b97e842ae22c2042a2",
+      "bytes": 2304
+    },
+    {
+      "path": "data/incident_decisions.csv",
+      "sha256": "d72f8ecfd80340417a8e11077423f557f75a561324e3ecf9c431267f221d48c5",
+      "bytes": 2496
+    },
+    {
+      "path": "data/learning_metrics.csv",
+      "sha256": "30fefd00e124311ec325327c0fff77d827ff48c938a46fedacb41ebdc2179784",
+      "bytes": 1511
+    },
+    {
+      "path": "data/response_actions.csv",
+      "sha256": "3e8d4e96af5d1161e37120ebe6e92e133ad3b88d38bb2827ecbc43717088eafe",
+      "bytes": 2242
+    },
+    {
+      "path": "data/roles_raci.csv",
+      "sha256": "db1b161bada553523500a9257e9a7e81c21c05231625b837b77148e52b9f601f",
+      "bytes": 924
+    },
+    {
+      "path": "data/scenario_events.csv",
+      "sha256": "058ddedda6e82830537cccd7dc854673b9a0f7fccc219d9d683152051ae97509",
+      "bytes": 2314
+    },
+    {
+      "path": "data/tabletop_injects.csv",
+      "sha256": "64a1fb050f5c9dab5d399d19652795769937d3bd0415927c4786f0fca769196c",
+      "bytes": 1876
+    },
+    {
+      "path": "docs/01-scenario-and-scope.md",
+      "sha256": "3ab12532201e98092db57d2b64bd22d287c90ea0e250ed44a3ce84e18d71de4f",
+      "bytes": 2800
+    },
+    {
+      "path": "docs/02-detection-and-triage.md",
+      "sha256": "a33849fb2bbd581402aca0c5058b829a9dfa1c14b40c65f4d7a5345665f6f05a",
+      "bytes": 2619
+    },
+    {
+      "path": "docs/03-response-playbook.md",
+      "sha256": "b7496eae6488eb10c3c2ca205bc87453020c4b684c47e46aaa7356cec1a03e41",
+      "bytes": 3043
+    },
+    {
+      "path": "docs/04-tabletop-facilitator-guide.md",
+      "sha256": "216167d35b49a902042189f73400a9d40f6788a061e0a979b20136cecc7792ea",
+      "bytes": 2797
+    },
+    {
+      "path": "docs/05-employee-awareness-program.md",
+      "sha256": "846c1e977a9b5b6d3b8b9a4e5480fed569f9e7e9b4df6fc8eee253332565d689",
+      "bytes": 3481
+    },
+    {
+      "path": "docs/06-after-action-report.md",
+      "sha256": "b66ee3f8075d6fdd4e00873bfb0f9da2d545c0be8898aa61baf8b40b4dae2da3",
+      "bytes": 2641
+    },
+    {
+      "path": "docs/07-executive-report.md",
+      "sha256": "349d5592c901eacd3fc37f5c8eab454f7aea3aa038ae63965e83a55488cb58f2",
+      "bytes": 2377
+    },
+    {
+      "path": "docs/08-sources-and-limitations.md",
+      "sha256": "c71b94abde0f3bcc24063f9ada925570e1f279532f84061dbc0b60fb34eabc1a",
+      "bytes": 2223
+    },
+    {
+      "path": "evidence/EV-001-idp-alert.md",
+      "sha256": "530a68cd255937adc1bd9035913fa145fa343ee76c6a02d6ddff3495be67eb30",
+      "bytes": 499
+    },
+    {
+      "path": "evidence/EV-002-employee-report.md",
+      "sha256": "b3e49246bae6c52317f573bc23a3a860ccc8b3dd20d6a2d78377655821fead3f",
+      "bytes": 467
+    },
+    {
+      "path": "evidence/EV-003-ticket-audit.md",
+      "sha256": "3fe7ffa6cc70f6736de7effc7c08d29d52a9cf46bb255cc2993ee0fd1336e27a",
+      "bytes": 463
+    },
+    {
+      "path": "evidence/EV-004-triage.md",
+      "sha256": "66d93dbe490b68a72aa89c8865f6d13b9ee26dfb1833566fd8d2a0a3174e8612",
+      "bytes": 452
+    },
+    {
+      "path": "evidence/EV-006-vendor-request.md",
+      "sha256": "c4f142af18d712584fc9303e46418f06561a86d26996b6f10b99696b451684e0",
+      "bytes": 437
+    },
+    {
+      "path": "evidence/EV-010-improvement-notes.md",
+      "sha256": "0050a672bc71f75cf3ca82519581f5658204750c69ac65403308adbbfc31dcf9",
+      "bytes": 429
+    },
+    {
+      "path": "scripts/regenerate_manifest.py",
+      "sha256": "c6c2ac06801043cbc5e7f5e94dc0c4ba05dda3e3890930e57a435169fb37f60a",
+      "bytes": 734
+    },
+    {
+      "path": "scripts/validate_manifest.py",
+      "sha256": "ba34d183c04e0928b79486bfb56aada4e9ec975819a0c3efb43ce5c11282d391",
+      "bytes": 1083
+    },
+    {
+      "path": "scripts/validate_project.py",
+      "sha256": "b27f66a678895872a93203016960243a1ccd9d05e24a005d82c9a4a2b0c11cdd",
+      "bytes": 5915
+    },
+    {
+      "path": "scripts/validate_workbook.py",
+      "sha256": "004642a40993461dc4a4fb78fd8eac67a1b125654a8ff4a7dc905b38425c4b5c",
+      "bytes": 2862
+    },
+    {
+      "path": "templates/employee-reporting-message.md",
+      "sha256": "bc8459724df43867eae8b495d54c0f0a00d44c7978d62e8ad0226bc4e251fc3a",
+      "bytes": 854
+    },
+    {
+      "path": "templates/incident-status-update.md",
+      "sha256": "f22bf1d5f4c2ec252efb0201a3dbc5cf93b9f5ed326457f5793d7f8c4223d1b2",
+      "bytes": 750
+    },
+    {
+      "path": "templates/tabletop-observation-form.md",
+      "sha256": "8b4cd81ba961f961d91f49abce2c4a82f2cf7b33d5e63b9987a82d4ebb248389",
+      "bytes": 738
+    },
+    {
+      "path": "templates/vendor-evidence-request.md",
+      "sha256": "83699cfd7e0e8b10cb8828260dcb8b200f8755a85c0beda7056ab5f017d5af01",
+      "bytes": 843
+    },
+    {
+      "path": "tests/test_project.py",
+      "sha256": "1a7d1ed21ead90e4c5101a59f9d1066759ae5fb42df2414f02c20ad33e58c820",
+      "bytes": 1816
+    },
+    {
+      "path": "tests/test_workbook.py",
+      "sha256": "8fb9a0dd047f7ea44d1990d54dd6ba6a0ee90e3dd3ea74d8845bbe62e8be18ec",
+      "bytes": 467
+    }
+  ]
+}
